@@ -1,4 +1,4 @@
-<h2 align="center">
+<!-- <h2 align="center">
   Portfolio Website - v2.0<br/>
   <a href="http://soumya-jit.tech/" target="_blank">soumyajit.tech</a>
 </h2>
@@ -6,9 +6,9 @@
   <img alt="Demo" src="./Images/readme-img1.png" />
 </div>
 
-<br/>
+<br/> -->
 
-<center>
+<!-- <center>
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &nbsp;
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) &nbsp;
@@ -40,7 +40,7 @@ This project was built using these technologies.
 - Express.js
 - CSS3
 - VsCode
-- Vercel
+- Vercel -->
 
 ## Features
 
