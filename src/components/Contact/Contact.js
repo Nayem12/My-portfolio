@@ -1,6 +1,7 @@
 import React from 'react';
 import imageOverlay from '../../Assets/earth.jpg'
 import mailgif from '../../Assets/83358-contact-green.gif'
+import { PaymentButton } from '../PaymentButton/PaymentButton';
 // import { useForm, ValidationError } from '@formspree/react';
 
 const Contact = () => {
@@ -98,7 +99,7 @@ const Contact = () => {
                                                                 type="submit"
                                                                 className="button button-a button-big button-rouded"
                                                             >
-                                                                Send Message
+                                                                <PaymentButton />
                                                             </button>
                                                         </div>
                                                     </div>
