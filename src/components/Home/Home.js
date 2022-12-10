@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.svg";
+import Contact from "../Contact/Contact";
 import Particle from "../Particle";
 import Projects from "../Projects/Projects";
 import Home2 from "./Home2";
@@ -43,6 +44,7 @@ function Home() {
         </Container>
       </Container>
       <Projects />
+      <Contact />
       {/* <Home2 /> */}
     </section>
   );
