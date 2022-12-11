@@ -17,6 +17,7 @@ const Contact = () => {
                 className="paralax-mf footer-paralax bg-image sect-mt4 route"
                 style={{ backgroundImage: "url(" + imageOverlay + ")" }}
             >
+                <h1 className='text-white'>Get in touch</h1>
                 <div className="overlay-mf"></div>
                 <div className="container">
                     <div className="row">
@@ -95,12 +96,12 @@ const Contact = () => {
                                                             </div>
                                                         </div>
                                                         <div className="col-md-12">
-                                                            <button
+                                                            {/* <button
                                                                 type="submit"
                                                                 className="button button-a button-big button-rouded"
                                                             >
-                                                                <PaymentButton />
-                                                            </button>
+                                                            </button> */}
+                                                            <PaymentButton />
                                                         </div>
                                                     </div>
                                                 </form>

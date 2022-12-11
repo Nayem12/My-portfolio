@@ -91,6 +91,15 @@ function NavBar() {
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
             </Nav.Item>
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/blog"
+                onClick={() => updateExpanded(false)}
+              >
+                <CgFileDocument style={{ marginBottom: "2px" }} /> BLog
+              </Nav.Link>
+            </Nav.Item>
 
             <Nav.Item>
               <a className="nav-link js-scroll" href="#contact">

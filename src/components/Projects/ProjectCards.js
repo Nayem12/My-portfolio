@@ -3,8 +3,10 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 function ProjectCards(props) {
+  console.log(props);
   return (
     <Card className="project-card-view">
       <Card.Img variant="top" src={props.imgPath} alt="card-img" />
@@ -33,6 +35,15 @@ function ProjectCards(props) {
             {"Demo"}
           </Button>
         )}
+        <Button
+          className="mt-3 primary"
+        >
+          <Link
+            to='/projectCards'
+          >
+            Details
+          </Link>
+        </Button>
       </Card.Body>
     </Card>
   );

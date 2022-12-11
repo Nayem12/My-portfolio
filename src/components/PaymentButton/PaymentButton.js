@@ -19,7 +19,7 @@ export const PaymentButton = () => {
     };
 
     return (
-        <button disabled={isPaying || isPaid} onClick={handleClick}>
+        <button className="radin" disabled={isPaying || isPaid} onClick={handleClick}>
             <span className="rail"></span>
             <span className="icon"></span>
             <span className="text">
